@@ -1,0 +1,6 @@
+MOLINFO STRUCTURE=step5_charmm2gmx.pdb
+t1: TORSION ATOMS=@chi1-82
+t2: TORSION ATOMS=@chi2-82
+t3: TORSION ATOMS=@chi3-82
+
+PRINT ARG=t1,t2,t3 FILE=dihedrals_colvar
