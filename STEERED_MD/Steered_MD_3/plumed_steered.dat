@@ -1,0 +1,18 @@
+# reconstruct not based on sequence of indexes but on structure
+backbone: GROUP NDX_FILE=index_whole.ndx NDX_GROUP=backbone-order
+WHOLEMOLECULES ENTITY0=backbone
+
+# set up the RMSD to inactive and active
+rmsd_to_inactive: RMSD REFERENCE=2rh1_mobileREGIONS_NEW.pdb TYPE=OPTIMAL NOPBC
+rmsd_to_active:   RMSD REFERENCE=3sn6_mobileREGIONS_NEW.pdb TYPE=OPTIMAL NOPBC
+
+# the movingrestraint
+restraint: ...
+MOVINGRESTRAINT
+ARG=rmsd_to_inactive
+AT0=0.415319  STEP0=0         KAPPA0=50000
+AT1=0.0       STEP1=7500000   KAPPA1=50000
+...
+
+# monitor the two variables and various restraint outputs
+PRINT STRIDE=500 ARG=* FILE=COLVAR
