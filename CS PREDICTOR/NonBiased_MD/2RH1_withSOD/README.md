@@ -14,7 +14,7 @@ Aminoacid sequence modelled: 29:238 - 260:342
 Ligand: CAU - Inverse agonist (2S)-1-(9H-Carbazol-4-yloxy)-3-(isopropylamino)propan-2-ol
 Parameters for CAU from parachem
 Sodium present in the DRY cavity.
-D2.50 protonated
+D2.50 deprotonated
 
 POPC membrane, 0.15M NaCl, TIP3 waters
 
