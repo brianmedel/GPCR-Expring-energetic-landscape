@@ -23,4 +23,9 @@ Input ready to run with GROMACS (2018.X 2019.X)
 
 **SIMULATION DETAILS**
 Equilibration
-11 nanoseconds
+
+Time: 11ns    Thermostat: berendsen
+
+Production
+
+Time: Infinity
