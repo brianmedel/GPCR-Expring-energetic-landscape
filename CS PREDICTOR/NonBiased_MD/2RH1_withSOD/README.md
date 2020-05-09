@@ -22,10 +22,7 @@ FF: Charmm36
 Input ready to run with GROMACS (2018.X 2019.X)
 
 **SIMULATION DETAILS**
-Equilibration
 
-Time: 11ns    Thermostat: berendsen
+Equilibrated during 11ns using the berendsen thermostat
 
-Production
-
-Time: Infinity
+Production time is set to infinity
