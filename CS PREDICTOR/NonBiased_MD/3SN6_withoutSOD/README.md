@@ -8,6 +8,7 @@ Mutations
 - E122W
 - N187E
 - C265A
+
 Aminoacid sequence modelled: 29:238 - 260:342
 
 Ligand: P0G - Full agonist 8-[(1R)-2-{[1,1-dimethyl-2-(2-methylphenyl)ethyl]amino}-1-hydroxyethyl]-5-hydroxy-2H-1,4-benzoxazin-3(4H)-one
