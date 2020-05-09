@@ -8,6 +8,7 @@ Mutations
 - E122W
 - N187E
 - C265A
+
 Aminoacid sequence modelled: 29:238 - 260:342
 
 Ligand: CAU - Inverse agonist (2S)-1-(9H-Carbazol-4-yloxy)-3-(isopropylamino)propan-2-ol
